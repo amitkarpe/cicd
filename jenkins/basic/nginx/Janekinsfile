@@ -18,9 +18,14 @@ pipeline {
 		echo 'Running nginx on port 8081 in docker'
 		make run
 	    }
+	}
         stage('Test') {
 	    steps {
 		echo 'Test on localhost using curl command'
 		make test
 	    }
+	}
+	}
+}
+
 

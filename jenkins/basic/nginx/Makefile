@@ -13,6 +13,9 @@ run:
 test:
 	curl localhost:8001
 
+clean:
+	docker image rm $(image)
+
 deploy:
 	kubectl run nginx --image=nginx:1.16-alpine --port 80 --expose -n nginx
 

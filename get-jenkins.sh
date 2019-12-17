@@ -8,3 +8,5 @@ sudo yum -y install jenkins-2.164.2
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
 
+# Source: https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Red+Hat+distributions
+# More: https://jenkins.io/doc/book/installing/
